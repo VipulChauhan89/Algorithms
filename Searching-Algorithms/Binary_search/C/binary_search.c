@@ -24,7 +24,7 @@ int Binary(int *A,int l,int h,int search)
 }
 int main()
 {
-	int N,T,search,count=0;
+	int N,T,search;
 	printf("Enter the number of elements you want to enter in an array : ");
 	scanf("%d",&N);
 	int arr[N];
