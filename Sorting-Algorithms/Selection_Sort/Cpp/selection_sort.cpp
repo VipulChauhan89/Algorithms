@@ -32,7 +32,7 @@ int main()
     int arr[]={1,-10,-30,20,2,11,15};
     int n=sizeof(arr)/sizeof(arr[0]),i;
     selection_sort(arr,n);
-    cout<<"Array after bubble sort : ";
+    cout<<"Array after Selection sort : ";
     for(i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
