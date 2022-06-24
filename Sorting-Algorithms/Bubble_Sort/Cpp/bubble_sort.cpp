@@ -2,6 +2,7 @@
     Bubble Sort
     Time Complexity
         Best Case Scenario  : O(n)
+         Avergae Case Scenario : O(n^2)
         Worst Case Scenario : O(n^2)
 */
 #include <iostream>
