@@ -354,7 +354,7 @@ DFS can also be implemented iteratively using a stack, but the recursive approac
 ## **FAQs on Depth First Search (DFS)**
 
 ### **Q1: What is DFS and how does it work?**  
-**Answer**: DFS is a graph traversal algorithm that explores all adjacent vertices of a node before moving to the next level. Starting from a source vertex, it marks the vertex as visited and recursively explores all its neighbors.
+**Answer**: DFS (Depth First Search) is a graph traversal algorithm that explores as far along each branch as possible before backtracking. Starting from a source vertex, it marks the vertex as visited and recursively explores all its unvisited neighbors. The process continues until all reachable vertices from the source have been visited.
 
 ### **Q2: What are the applications of DFS?**  
 **Answer**: DFS is used in cycle detection, topological sorting, pathfinding, finding connected components, maze solving, and identifying articulation points and bridges.
